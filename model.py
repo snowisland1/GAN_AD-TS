@@ -6,7 +6,6 @@ import pdb
 import json
 import sys
 from mod_core_rnn_cell_impl import LSTMCell  # modified to allow initializing bias in lstm
-
 # from tensorflow.contrib.rnn import LSTMCell
 tf.logging.set_verbosity(tf.logging.ERROR)
 import mmd
